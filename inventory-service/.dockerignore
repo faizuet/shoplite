@@ -1,0 +1,9 @@
+.git/
+.gitignore
+.env
+Dockerfile
+.dockerignore
+*.test
+coverage/
+*.out
+inventory-service

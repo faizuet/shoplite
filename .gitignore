@@ -1,0 +1,35 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# AWS credentials
+.aws/
+.aws-credentials
+
+# Node.js
+node_modules/
+dist/
+
+# Java
+target/
+
+# Go binaries
+inventory-service/inventory-service
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+*.bak
